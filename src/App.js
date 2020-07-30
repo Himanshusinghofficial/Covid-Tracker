@@ -6,6 +6,7 @@ import About from './components/About'
 import NavbarValue from './components/Navbar'
 import styles from './App.module.css'
 import Notfound from './NotFound'
+import Login from './Login'
 
 class App extends Component {
 
@@ -18,6 +19,7 @@ class App extends Component {
             <Route exact path='/Covid-Tracker' component={AppModule}></Route>
             <Route exact path='/home' component={AppModule}></Route>
             <Route exact path='/about' component={About}></Route>
+            <Route exact path='/login/himanshu_singh' component={Login}></Route>
             <Route component={Notfound}></Route>
           </Switch>
         </div>

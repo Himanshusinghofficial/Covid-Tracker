@@ -5,7 +5,7 @@ const NavbarValue = () => {
     return (
 
         <div className="navbar bg-sucess bg-dark " style={{ padding: '5px 50px 5px 50px' }}>
-            <Link to='/' style={{ padding: '0px' }} >
+            <Link to='/home' style={{ padding: '0px' }} >
                 <h1><i class="fas fa-thermometer-full"></i> Covid Tracker</h1>
             </Link>
             <ul className='text-center'>

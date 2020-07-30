@@ -3,7 +3,7 @@ import ReactCountUp from 'react-countup'
 
 const Home = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
     if (!confirmed) {
-        return 'Loading'
+        return ''
     }
     // console.log(confirmed.value);
     return (
